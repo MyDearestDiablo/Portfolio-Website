@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelyzaveta Dukhina – Software Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Yelyzaveta Dukhina, a software developer passionate about building web and desktop applications. View projects, skills, and contact information.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="hamburger" aria-label="Open navigation menu" aria-controls="main-nav" aria-expanded="false">☰</button>
+        <h1>Yelyzaveta Dukhina</h1>
+        <nav id="main-nav" role="navigation" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="toggle-theme" aria-pressed="false" aria-label="Toggle light and dark mode">
+            <span id="theme-icon" aria-hidden="true">🌙</span>
+            <span class="sr-only">Switch to Dark Mode</span>
+        </button>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Yelyzaveta Dukhina.<br>
+                I am a software developer passionate about building web and desktop applications.<br>
+                Based in Aberdeen, UK.<br>
+                You can reach me at <a href="mailto:yelyzavetadukhina@gmail.com">yelyzavetadukhina@gmail.com</a>.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Pending...</h3>
+                <!-- Add more .project-card blocks as needed -->
+            </div>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>I have experience in various programming languages and technologies.</p>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git, GitHub)</li>
+                <li>Frontend Frameworks (React, Angular, Vue.js)</li>
+                <li>Backend Development (Node.js, ASP.NET, Django)</li>
+                <li>Database Management (SQL, MongoDB)</li>
+                <li>RESTful APIs</li>
+                <li>Testing (Unit, Integration, End-to-End)</li>
+                <li>Agile/Scrum Methodologies</li>
+                <li>Problem Solving & Debugging</li>
+                <li>CI/CD</li>
+                <li>Cloud Platforms (AWS, Azure, Google Cloud)</li>
+                <li>Communication & Teamwork</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="mailto:yelyzavetadukhina@gmail.com" method="post" enctype="text/plain" role="form" aria-label="Contact form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Yelyzaveta Dukhina. All rights reserved.</p>
+        <p>Follow me on <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a></p>
+    </footer>
+</body>
